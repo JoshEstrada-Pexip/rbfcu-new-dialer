@@ -1,9 +1,11 @@
-# Ignore everything
-*
-
-# Except dist folder
-!dist/
-!dist/**
-
-# Keep gitignore itself
-!.gitignore
+# Ignore everything except deployment files
+node_modules/
+src/
+*.ts
+*.tsx
+*.json
+!package.json
+.env*
+vite.config.ts
+tsconfig*.json
+eslint.config.js
